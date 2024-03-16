@@ -1,4 +1,4 @@
-# react-custom-dynamic-form
+# React Custom Dynamic Form
 
 A dynamic react form that can be customized as per your needs.
 
