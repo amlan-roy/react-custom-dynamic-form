@@ -1,0 +1,32 @@
+{
+  "name": "react-custom-dynamic-form",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tsc",
+    "format": "prettier --write .",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "React Form",
+    "Dynamic Form",
+    "Custom Form",
+    "React Custom Form",
+    "React Custom Dynamic Form"
+  ],
+  "author": "Amlan Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-ts": "2.12.0",
+    "@parcel/transformer-typescript-types": "2.12.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
