@@ -8,6 +8,8 @@
   "types": "dist/types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tsc",
+    "format": "prettier --write .",
     "watch": "parcel watch",
     "build": "parcel build"
   },
