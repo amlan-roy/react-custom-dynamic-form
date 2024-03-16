@@ -1,0 +1,22 @@
+{
+  "name": "react-custom-dynamic-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React Form",
+    "Dynamic Form",
+    "Custom Form",
+    "React Custom Form",
+    "React Custom Dynamic Form"
+  ],
+  "author": "Amlan Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
