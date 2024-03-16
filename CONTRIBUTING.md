@@ -9,8 +9,7 @@ If you need any help, feel free to reach out to [Amlan Roy](https://twitter.com/
 ## About this repository
 
 - We use [pnpm](https://pnpm.io) for development.
-- We use [Parcel](https://parceljs.org/docs/) as our build system.
-- We use [changesets](https://github.com/changesets/changesets) for managing releases.
+- We use [Vite](https://vitejs.dev) as our build system.
 
 ## Structure
 
@@ -27,10 +26,10 @@ dist
 └── ...
 ```
 
-| Path                  | Description                              |
-| --------------------- | ---------------------------------------- |
-| `src/index.ts`        | The source of our code.                  |
-| `dist`                | The dist file                            |
+| Path           | Description             |
+| -------------- | ----------------------- |
+| `src/index.ts` | The source of our code. |
+| `dist`         | The dist file           |
 
 ## Development
 
@@ -99,6 +98,18 @@ the following categories:
 If you are interested in the detailed specification you can visit
 https://www.conventionalcommits.org/ or check out the
 [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
+
+## Scripts
+
+- `dev`: Starts the local Storybook server, use this to develop and preview your components.
+- `test`: Runs all your tests with vitest.
+- `test:watch`: Runs tests in watch mode.
+- `test:ui`: Runs tests with a UI.
+- `test:coverage`: Runs tests and generates a coverage report.
+- `build`: Builds your Storybook as a static web application.
+- `build:lib`: Builds your component library with Vite.
+- `lint`: Runs ESLint.
+- `format`: Formats your code with Prettier.
 
 ## Requests for new feature
 
