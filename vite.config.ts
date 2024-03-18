@@ -26,10 +26,15 @@ export default defineConfig({
   },
   test: {
     environment: "jsdom",
-    setupFiles: "./lib/test/setup.ts",
+    setupFiles: "./src/test/setup.ts",
     coverage: {
       all: false,
       enabled: true,
+    },
+  },
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
     },
   },
 });
