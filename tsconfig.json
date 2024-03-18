@@ -65,8 +65,11 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": false,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["./lib/**/*.ts", "./lib/**/*.tsx"],
-  "exclude": ["./lib/**/*.stories.*"]
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["./src/**/*.stories.*", "node_modules", "dist"]
 }
